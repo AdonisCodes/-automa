@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.simonferns.automa"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ca1e5677-afd6-4c29-9502-d97437344e52"
+      }
     }
   }
 }
